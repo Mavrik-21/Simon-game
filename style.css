@@ -1,0 +1,80 @@
+body{   
+    padding: 1%;
+    background-color:#011f3f;
+    text-align: center;
+    color: beige;
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+}
+.btn{
+    display: inline-block;
+    margin:3px;
+    width:15rem;
+    height: 15rem;
+    border:15px solid black;
+    border-radius: 30%;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color:green;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+.container{
+    margin-bottom: 2%;
+}
+.game-over{
+    background-color: red;
+    opacity: .20;
+}
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.rule{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 42px;
+    text-decoration: none;
+    color: beige;
+}
+.btn:hover{
+    border-color:aqua ;
+}
+.rule:hover{
+    color: red;
+}
+.Rules-body{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    margin: 1%;
+    line-height: 2em;
+
+}
+footer{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1%;
+}
+.foot{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 1%;
+}
